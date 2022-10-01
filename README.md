@@ -1,4 +1,5 @@
 # Hacktoberfest-new-project
 
-This site displaying cards with toggle effects while clicking on toggle it displaying name and profile photo of the contributor
+This website contains toggle cards displaying name and profile photo  contributor
+
 
