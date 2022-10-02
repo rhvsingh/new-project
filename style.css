@@ -1,133 +1,144 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --bg-color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);;
+  --bg-color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 
 body {
-    margin: 0;
-    background-image: linear-gradient(270deg, #333, #161616);
-    font-family: sans-serif;
-    color: #fff;
+  margin: 0;
+  background-image: linear-gradient(270deg, #333, #161616);
+  font-family: sans-serif;
+  color: #fff;
 }
 
 section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  padding: 50px;
 }
 
 .card1 {
-    max-width: 400px;
-    width: 100%;
-    background:var(--bg-color);
-    height: 85px;
-    font-size: 0.8rem;
-    font-weight: normal;
-    letter-spacing: 1px;
-    line-height: 0.5;
-    text-align: center;
-    position: relative;
-    transition: height 0.5s ease-in-out;
-    border-radius: 6px;
-    filter: drop-shadow(0px 0px 900px var(--bg-color));
+  max-width: 350px;
+  margin: 40px;
+  width: 100%;
+  background: var(--bg-color);
+  height: 400px;
+  font-size: 0.8rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 0.5;
+  text-align: center;
+  position: relative;
+  transition: height 0.5s ease-in-out;
+  border-radius: 6px;
+  filter: drop-shadow(0px 0px 900px var(--bg-color));
 }
 
 .card1.active {
-    height: 550px;
-    border-radius: 10px;
+  height: 550px;
+  border-radius: 10px;
 }
 
 .arrow-button {
-    font-size: 1.5rem;
-    position: absolute;
-    bottom: -60px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: yellow;
-    width: 70px;
-    height: 60px;
-    z-index: -1;
-    display: grid;
-    place-items: center;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: yellow;
+  width: 70px;
+  height: 60px;
+  z-index: -1;
+  display: grid;
+  place-items: center;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
-
-.arrow-button>i {
-    transition: transform 0.5s ease-in-out;
-    z-index: 11;
-    position: relative;
+.arrow-button > i {
+  transition: transform 0.5s ease-in-out;
+  z-index: 11;
+  position: relative;
 }
 
-.card1.active .arrow-button>i {
-    transform: rotate(-180deg);
+.card1.active .arrow-button > i {
+  transform: rotate(-180deg);
 }
 
 .arrow-button::before,
 .arrow-button::after {
-    position: absolute;
-    content: '';
-    width: 35px;
-    height: 35px;
-    top: 0;
-    /* background-color: red; */
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 35px;
+  top: 0;
+  /* background-color: red; */
 }
 
 .arrow-button::before {
-    left: -34px;
-    border-top-right-radius: 35px;
-    box-shadow: 11px -10px 0 10px yellow;
+  left: -34px;
+  border-top-right-radius: 35px;
+  box-shadow: 11px -10px 0 10px yellow;
 }
 
 .arrow-button::after {
-    right: -34px;
-    border-top-left-radius: 35px;
-    box-shadow: -11px -10px 0 10px yellow;
+  right: -34px;
+  border-top-left-radius: 35px;
+  box-shadow: -11px -10px 0 10px yellow;
 }
 
 .contentBx {
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
+.contentBx:hover {
+  scale: 1.05;
+}
 .contentBx .content {
-    position: relative;
-    padding: 0.85rem;
-    z-index: 10;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 0.8;
+  position: relative;
+  padding: 0.85rem;
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.8;
 }
 
+.content {
+  transition: 0.5s;
+}
 .content h1,
 .content h4 {
-    margin: 0.5rem;
+  margin: 0.5rem;
+}
+
+.content:hover {
+  letter-spacing: 3px;
 }
 
 .content .img {
-    position: relative;
-    width: 250px;
-    aspect-ratio: 1 / 1;
-    background-color: var(--bg-color);
-    margin-top: 1rem;
-    border: 3px solid #333;
-    box-shadow: -11px 0 10px 0 rgba(51, 51, 51, 0.3);
+  position: relative;
+  width: 250px;
+  aspect-ratio: 1 / 1;
+  background-color: var(--bg-color);
+  margin-top: 1rem;
+  border: 3px solid #333;
+  box-shadow: -11px 0 10px 0 rgba(51, 51, 51, 0.3);
 }
 
 .img img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
