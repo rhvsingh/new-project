@@ -46,6 +46,13 @@ const names = [{
   description: "Tech_nooB",
   githubUrl: "https://github.com/swaroopRajwal",
   image: "https://i.imgur.com/89kI44N.jpg"
-}]
+},{
+  name: "Samman Sarkar",
+  fullName: "Samman Sarkar",
+  description: "Open source enthusiast",
+  githubUrl: "https://github.com/sammansarkar",
+  image: "https://avatars.githubusercontent.com/u/91555648?v=4"
+}
+]
 
 export default names;
