@@ -52,6 +52,12 @@ const names = [{
   description: "Open source enthusiast",
   githubUrl: "https://github.com/sammansarkar",
   image: "https://avatars.githubusercontent.com/u/91555648?v=4"
+},{
+  name: "Messi",
+  fullName: "Lionel Messi",
+  description: "Professional Footballer",
+  githubUrl: "https://github.com/saxam00",
+  image: "https://avatars.githubusercontent.com/u/115353386?s=400&u=3e45e26eaf573f5a8d245d68dbf24b5e7192ffd3&v=4"
 }
 ]
 
