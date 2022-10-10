@@ -45,7 +45,7 @@ const names = [{
   fullName: "Swaroop Jaikumar Rajwal",
   description: "Tech_nooB",
   githubUrl: "https://github.com/swaroopRajwal",
-  image: "https://i.imgur.com/89kI44N.jpg"
+  image: "https://github.com/swaroopRajwal.png"
 },{
   name: "Samman Sarkar",
   fullName: "Samman Sarkar",
