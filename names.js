@@ -70,6 +70,12 @@ const names = [{
   description: "open source enthusiast",
   githubUrl: "https://github.com/KARTIKBANGARI",
   image: "https://avatars.githubusercontent.com/u/97709506?s=40&v=4"
+},{
+  name: "Parth",
+  fullName: "Parth Mahajan",
+  description: "Student of CSDS at NSUT- GDSC ML TEAM, Flutter App Developer",
+  githubUrl: "https://github.com/parthmahajan008",
+  image: "https://avatars.githubusercontent.com/u/97579934?v=4"
 }
 
 ]
