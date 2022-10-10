@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background-image: linear-gradient(270deg, #333, #161616);
+    background-image: linear-gradient(270deg, rgb(19, 19, 19), #161616);
     font-family: sans-serif;
     color: #fff;
 }
@@ -152,3 +152,19 @@ section {
 /* .card1:hover{
     height: 650px;
 } */
+
+.footermain {
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footermain>a {
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+.footermain>a:hover {
+    color: rgb(85, 85, 85);
+
+}
