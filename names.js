@@ -76,6 +76,12 @@ const names = [{
   description: "Student of CSDS at NSUT- GDSC ML TEAM, Flutter App Developer",
   githubUrl: "https://github.com/parthmahajan008",
   image: "https://avatars.githubusercontent.com/u/97579934?v=4"
+},{
+  name: "Sachin",
+  fullName: "Sachin Meena",
+  description: "Student at NSUT, web developer",
+  githubUrl: "https://github.com/sachin1293",
+  image: "https://avatars.githubusercontent.com/u/72185363?v=4"
 }
 
 ]
