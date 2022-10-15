@@ -82,6 +82,12 @@ const names = [{
   description: "Student at NSUT, web developer",
   githubUrl: "https://github.com/sachin1293",
   image: "https://avatars.githubusercontent.com/u/72185363?v=4"
+},{
+  name: "Aatish",
+  fullName: "Aatish Malik",
+  description: "Owner of start-up X-Lance, App developer",
+  githubUrl: "https://github.com/zenghost1",
+  image: "https://avatars.githubusercontent.com/u/89266411?v=4"
 }
 
 ]
