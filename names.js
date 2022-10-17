@@ -88,6 +88,12 @@ const names = [{
   description: "Owner of start-up X-Lance, App developer",
   githubUrl: "https://github.com/zenghost1",
   image: "https://avatars.githubusercontent.com/u/89266411?v=4"
+},{
+  name: "Shivam",
+  fullName: "Shivam Sulaniya",
+  description: "Tech enthusiast, 3D artist",
+  githubUrl: "https://github.com/shivam-sulaniya",
+  image: "https://avatars.githubusercontent.com/u/115938148?s=400&v=4"
 }
 
 ]
