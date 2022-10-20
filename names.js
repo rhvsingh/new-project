@@ -3,7 +3,7 @@ const names = [{
   fullName: "Raja Harsh Vardhan Singh",
   description: "Full stack developer app developer and open source enthusiast",
   githubUrl: "https://github.com/rhvsingh",
-  image: "https://avatars.githubusercontent.com/u/70860738?v=4",
+  image: "https://avatars.githubusercontent.com/u/70860739?v=4",
 }, {
   name: "Shivam Singh",
   fullName: "Shivam Singh",
