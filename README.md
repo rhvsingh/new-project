@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<h3>Todo: </h3>
+<h4>Todo: </h4>
 <ol>
   <li>Center the content </li>
   <li>Improve the UI of website  </li>
