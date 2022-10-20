@@ -42,7 +42,7 @@ for (let index = 0; index < arrowButton.length; index++) {
       if (card[index].classList.contains("active")) {
           card[index].style.height = `${card[index].children[0].scrollHeight}px`
       } else {
-          card[index].style.height = '400px'
+          card[index].style.height = '600px'
       }
   };
 }
