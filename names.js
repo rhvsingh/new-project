@@ -122,6 +122,13 @@ const names = [
     githubUrl: "https://github.com/abhinnxo",
     image: "https://avatars.githubusercontent.com/u/31702973?v=4",
   },
+  {
+    name: "Neha",
+    fullName: "Neha Sharma",
+    description: "Web developer",
+    githubUrl: "https://github.com/Neha-1221",
+    image: "https://avatars.githubusercontent.com/u/116350932?v=4",
+  },
 ];
 
 export default names;
